@@ -1,0 +1,28 @@
+
+{
+  "name": "team-member-showcasing",
+  "version": "1.0.0",
+  "description": "A website for showcasing team members and their skills",
+  "type": "module",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3000",
+    "test": "mocha --recursive tests",
+    "coverage": "nyc --reporter=text --reporter=html mocha --recursive tests",
+    "lint": "eslint src tests"
+  },
+  "keywords": [
+    "team",
+    "showcase",
+    "javascript",
+    "json-server"
+  ],
+  "author": "Nacima Muhidin",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "eslint": "^8.57.1",
+    "json-server": "0.17.4",
+    "mocha": "^10.8.2",
+    "nyc": "^15.1.0"
+  }
+}
