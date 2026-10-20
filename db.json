@@ -1,0 +1,50 @@
+
+{
+  "teamMembers": [
+    {
+      "id": "1",
+      "name": "Abdirizak",
+      "role": "Frontend Developer",
+      "description": "Enjoys building websites and learning new technologies.",
+      "image": "https://placehold.co/300x300",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/"
+    },
+    {
+      "id": "2",
+      "name": "Nacima",
+      "role": "UI/UX Designer",
+      "description": "Interested in creating simple and user-friendly designs.",
+      "image": "https://placehold.co/300x300",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/"
+    },
+    {
+      "id": "3",
+      "name": "Nasteha",
+      "role": "Web Developer",
+      "description": "Enjoys working with HTML, CSS and JavaScript.",
+      "image": "https://placehold.co/300x300",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/"
+    },
+    {
+      "id": "4",
+      "name": "Nasra",
+      "role": "Software Developer",
+      "description": "Interested in solving problems through technology.",
+      "image": "https://placehold.co/300x300",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/"
+    },
+    {
+      "id": "5",
+      "name": "Leo",
+      "role": "Web Designer",
+      "description": "Enjoys designing creative and attractive websites.",
+      "image": "https://placehold.co/300x300",
+      "github": "https://github.com/",
+      "linkedin": "https://www.linkedin.com/"
+    }
+  ]
+}
