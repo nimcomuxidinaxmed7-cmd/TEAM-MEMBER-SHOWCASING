@@ -65,17 +65,18 @@ The project aims to achieve at least 50% JavaScript test coverage.
 
 Project Links
 
-GitHub Repository: https://github.com/nimcomuxidinaxmed7-cmd/team-member-showcasing
-Figma Wireframe: Figma Design: [Team Member Showcasing – Desktop Wireframe](https://www.figma.com/design/GOlu7sVhz6MYROMYwHCSWZ/Team-Member-Showcasing-%E2%80%93-Desktop-Wireframe?node-id=0-1\&m=dev\&t=l0WONDLDGDeD8cLu-1)
-Live Demo:https://nimcomuxidinaxmed7-cmd.github.io/TEAM-MEMBER-SHOWCASING/
+-GitHub Repository: https://github.com/nimcomuxidinaxmed7-cmd/team-member-showcasing
+-Figma Wireframe: Figma Design: [Team Member Showcasing – Desktop Wireframe](https://www.figma.com/design/GOlu7sVhz6MYROMYwHCSWZ/Team-Member-Showcasing-%E2%80%93-Desktop-Wireframe?node-id=0-1\&m=dev\&t=l0WONDLDGDeD8cLu-1)
+-Live Demo:https://nimcomuxidinaxmed7-cmd.github.io/TEAM-MEMBER-SHOWCASING/
 
 
  What I Learned
 
 Through this project, I am practising how to organize JavaScript into separate files, work with APIs, use Git and GitHub, and test my code. I am also learning how to make a website easier to use and maintain.
 
-Author
+Deployed API: https://team-member-showcasing.onrender.com/teamMembers
 
-Nacima Muhidin
+ Project Management
 
-Created as part of my software engineering learning journey at Moringa School.
+- [GitHub Issue: Verify frontend connection to deployed API](https://github.com/nimcomuxidinaxmed7-cmd/TEAM-MEMBER-SHOWCASING/issues/1)
+- [GitHub Project Board: Team Member Showcasing](https://github.com/users/nimcomuxidinaxmed7-cmd/projects/4/views/1)
