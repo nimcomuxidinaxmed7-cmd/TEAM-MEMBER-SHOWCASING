@@ -6,7 +6,7 @@
   "scripts": {
     "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT",
     "test": "mocha --recursive tests",
-    "coverage": "c8 --all --include=\"src/**/*.js\" --reporter=text --reporter=html mocha --recursive tests",
+    "coverage": "c8 --all --include=\"src/**/*.js\" --check-coverage --lines 50 --functions 50 --branches 50 --statements 50 --reporter=text --reporter=html mocha --recursive tests",
     "lint": "eslint src tests"
   },
   "keywords": [

@@ -57,8 +57,9 @@ npm test
 
 To check test coverage, use:
 
-bash
+```bash
 npm run coverage
+```
 
 
 The project aims to achieve at least 50% JavaScript test coverage.
