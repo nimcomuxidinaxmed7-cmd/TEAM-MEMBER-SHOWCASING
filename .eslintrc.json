@@ -1,4 +1,3 @@
-
 {
   "env": {
     "browser": true,
@@ -15,7 +14,13 @@
     "no-unused-vars": "warn",
     "no-console": "off",
     "eqeqeq": "error",
-    "semi": ["error", "always"],
-    "quotes": ["error", "single"]
+    "semi": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ]
   }
 }

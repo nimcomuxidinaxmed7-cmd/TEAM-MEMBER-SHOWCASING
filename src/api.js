@@ -1,5 +1,5 @@
 
-const API_URL = 'http://localhost:3000/teamMembers';
+const API_URL = 'https://team-member-showcasing.onrender.com/teamMembers';
 
 // Get all team members
 export async function getTeamMembers() {
