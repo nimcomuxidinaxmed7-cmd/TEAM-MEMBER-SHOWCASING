@@ -108,17 +108,13 @@ checkScreenSize();
 
         const allCards = document.querySelectorAll("#slides .profile-card");
 
-        // Keep the existing card design and images; display only API records.
-        allCards.forEach((card, index) => {
-            card.hidden = index >= members.length;
+        // Keep every existing card visible, including during API redeployment.
+        allCards.forEach(card => {
+            card.hidden = false;
         });
 
-        cards = document.querySelectorAll(
-            "#slides .profile-card:not([hidden])"
-        );
-
-        members.slice(0, cards.length).forEach((member, index) => {
-            const card = cards[index];
+        members.slice(0, allCards.length).forEach((member, index) => {
+            const card = allCards[index];
             const name = card.querySelector(".member-name");
             const role = card.querySelector(".member-role");
             const bio = card.querySelector(".member-bio");
@@ -142,7 +138,10 @@ checkScreenSize();
             }
         });
 
+        // Recalculate the existing slider with all six cards.
+        cards = document.querySelectorAll("#slides .profile-card");
         checkScreenSize();
+
         console.log(`Loaded ${members.length} team members from Render.`);
     } catch (error) {
         console.error("Team API connection failed:", error);
